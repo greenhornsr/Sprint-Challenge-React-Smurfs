@@ -1,3 +1,49 @@
 .App {
+  width: 60rem;
+  min-height: 28rem;
+  margin: 0 auto;
   text-align: center;
+  background-image: url('./Smurfsbkg.jpg');
+  background-size: 100%;
+}
+
+.subAppWrapper{
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  /* border: 1px solid black; */
+}
+
+.nav-div{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-div a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-div a.active{
+  font-weight: bolder;
+  color: blue;
+  background-color: rgb(64, 245, 40);
+  text-decoration: underline solid rgb(0, 255, 42); 
+}
+
+.Smurfs h1{
+  width: 100%;
+  color: blue;
+}
+
+.Smurfs ul{
+  font-size: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Smurf{
+  padding: .5rem;
+  /* border: 1px solid blue; */
 }
