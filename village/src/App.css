@@ -1,3 +1,38 @@
 .App {
+  width: 50rem;
+  margin: 0 auto;
   text-align: center;
+}
+
+.nav-div{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-div a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-div a.active{
+  font-weight: bolder;
+  color: blue;
+  background-color: rgb(64, 245, 40);
+  text-decoration: underline solid rgb(0, 255, 42); 
+}
+
+.Smurfs h1{
+  width: 100%;
+  color: blue;
+}
+
+.Smurfs ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Smurf{
+  padding: .5rem;
+  border: 1px solid blue;
 }
