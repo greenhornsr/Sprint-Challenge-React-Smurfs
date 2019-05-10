@@ -1,11 +1,21 @@
 .App {
-  width: 50rem;
+  width: 60rem;
+  min-height: 28rem;
   margin: 0 auto;
   text-align: center;
+  background-image: url('./Smurfsbkg.jpg');
+  background-size: 100%;
+}
+
+.subAppWrapper{
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid red;
 }
 
 .nav-div{
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   justify-content: space-around;
 }
@@ -28,6 +38,7 @@
 }
 
 .Smurfs ul{
+  font-size: .8rem;
   display: flex;
   flex-wrap: wrap;
 }
