@@ -40,7 +40,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
     Delete = .delete()
 
 - [ ] Mention three tools we can use to make AJAX requests.
-    post, get, put.
+    Axios, Fetch, jQuery
 
 ## Project Set Up
 
